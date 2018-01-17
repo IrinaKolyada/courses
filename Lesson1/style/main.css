@@ -1,0 +1,9 @@
+body {
+    border: 5px solid black;
+    padding-left: 30px;
+    font-family: 'Alice', serif;
+    background-color: #FAEBD7;
+}
+header {
+    text-align: center;
+}

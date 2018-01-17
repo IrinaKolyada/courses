@@ -1,0 +1,87 @@
+*,
+*:before,
+*:after {
+   transition: all .1s ease-in;
+   box-sizing: border-box;
+}
+body {
+    border: 20px solid #2178a3;
+    background-color: #3399cc;
+    color: #ffff;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0;
+    padding: 0;  
+}
+.main {
+   max-width: 700px;
+   font-size: 0;
+   margin: 0 auto;
+}
+.border {
+    border : 2px solid #fff;
+}
+.title {
+    font-size: 20px;
+}
+.item {
+    border: 2px solid #fff;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+    height: 100px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+.one-half {
+    width: 50%;
+}
+.quarter {
+    width: 25%;
+}
+.one {
+    width: 100%;
+}
+.blue {
+    background-color: #3399cc;
+}
+.lightblue {
+    background-color: #33cccc;
+}
+.orchid {
+    background-color: #996699;
+}
+.red {
+    background-color: #c24747;
+}
+.orange {
+    background-color: #e2674a;
+}
+.gold {
+    background-color: #ffcc66;
+}
+.lightgreen {
+    background-color: #99cc99;
+}
+.cyan {
+    background-color: #669999;
+}
+.lightpink {
+    background-color: #cc6699;
+}
+.gittip {
+    background-color: #339966;
+}
+.darkblue {
+    background-color: #666699;
+}
+.subtitle {
+    font-size: 15px;
+}
+.value,
+.icon {
+    opacity: 0.6;
+    position: relative;
+}
+.item:hover {
+    opacity: 1; 
+}
